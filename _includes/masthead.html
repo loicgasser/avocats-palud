@@ -14,10 +14,14 @@
             {% endif %}
             <li class="masthead__menu-item">
               {% if page.url == link.url %}
-                <a class="active" href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                {% assign active = 'active' %}
               {% else %}
-                <a class="" href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+                {% assign active = '' %}
               {% endif %}
+              {% if page.url contains 'docs' and link.url contains 'docs' %}
+                {% assign active = 'active' %}
+              {% endif %}
+              <a class="{{ active }}" href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
