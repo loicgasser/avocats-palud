@@ -32,6 +32,35 @@ html {
   }
 }
 
+/* Image band */
+figure > div {
+  display: block;
+}
+@media (min-width: 37.5em) {
+  figure.half > div {
+    width: calc(50% - 0.5em);
+  }
+}
+@media (min-width: 37.5em) {
+  figure.third > div {
+    width: calc(33.3333% - 0.5em);
+  }
+}
+.image-top-band {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  background-color: #be272d;
+  opacity: 0.8;
+  font-size: 1.1em;
+}
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
 body {
   margin: 0;
   padding: 0;
