@@ -13,7 +13,11 @@
               {% assign domain = site.url | append: site.baseurl %}
             {% endif %}
             <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              {% if page.url == link.url %}
+                <a class="active" href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              {% else %}
+                <a class="" href="{{ domain }}{{ link.url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              {% endif %}
             </li>
           {% endfor %}
         </ul>

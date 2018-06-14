@@ -181,6 +181,7 @@
   align-items: center;
   background: $background-color;
 
+
   a {
     display: block;
     margin: 0 1rem;
@@ -223,6 +224,22 @@
 
     a {
       position: relative;
+
+      &.active {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 4px;
+          background: $primary-color;
+          width: 100%;
+          -webkit-transition: $global-transition;
+          transition: $global-transition;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+        }
+      }
 
       &:before {
         content: "";
