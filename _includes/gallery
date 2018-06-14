@@ -22,6 +22,7 @@
           "{{ img.url | relative_url }}"
         {% endif %}
         {% if img.title %}title="{{ img.title }}"{% endif %}
+        style="text-decoration: none;"
       >
         <img src=
           {% if img.image_path contains "://" %}
@@ -30,6 +31,12 @@
             "{{ img.image_path | relative_url }}"
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        <div class="image-top-band" style="
+            width: 100%;
+            margin-top: -15px;
+            color: black;
+            text-align: center;
+        ">{{ img.title }}</div>
       </a>
     {% else %}
       <img src=

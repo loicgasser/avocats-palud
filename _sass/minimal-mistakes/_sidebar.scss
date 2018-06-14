@@ -54,12 +54,31 @@
   p,
   li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: 0.8em;
     line-height: 1.5;
+    margin-bottom: 1em;
   }
 
   img {
     width: 100%;
+  }
+
+  a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: $primary-color;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+
+  .nav__sub-title {
+    font-size: 1em;
   }
 }
 

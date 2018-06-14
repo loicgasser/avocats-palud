@@ -8,6 +8,30 @@ html {
   min-height: 100%;
 }
 
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 15px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-width: 80em) {
+  html {
+    font-size: 15px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -36,26 +60,32 @@ h6 {
 h1 {
   margin-top: 0;
   font-size: $type-size-3;
+  color: $primary-color;
 }
 
 h2 {
   font-size: $type-size-4;
+  color: $primary-color;
 }
 
 h3 {
   font-size: $type-size-5;
+  color: $primary-color;
 }
 
 h4 {
   font-size: $type-size-6;
+  color: $primary-color;
 }
 
 h5 {
   font-size: $type-size-6;
+  color: $primary-color;
 }
 
 h6 {
   font-size: $type-size-6;
+  color: $primary-color;
 }
 
 small,

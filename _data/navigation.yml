@@ -1,12 +1,31 @@
-# main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: Les avocats
+    url: /
+  - title: Questions juridiques
+    url: /docs/permis-de-contruire.html
+  - title: FAQ
+    url: /faq.html
+  - title: Liens
+    url: /liens.html
+  - title: Contact
+    url: /contact.html
+
+docs:
+  - title: Questions Juridiques
+    children:
+      - title: "Délai pour permis de construire"
+        url: /docs/permis-de-contruire.html
+      - title: "L’hypothèque légale des artisans et entrepreneurs"
+        url: /docs/hypotheque.html
+      - title: "Situation fiscale après divorce"
+        url: /docs/situation-fiscale-apres-divorce.html
+      - title: "Contribution d’entretien à la majorité de l’enfant"
+        url: /docs/contribution-d-entretien.html
+      - title: "L'autorité parentale conjointe va-t-elle de paire avec une garde alternée?"
+        url: /docs/garde-alternee.html
+      - title: "Nouveau droit de l'entretien de l'enfant"
+        url: /docs/nouveau-droit-d-entretien.html
+      - title: "Exclusion de la communauté des copropriétaires"
+        url: /docs/exclusion-de-la-communaute-des-coproprietaires.html
+      - title: "L'exhérédation : peut-on déshériter un de ses héritiers et si oui, à quelles conditions?"
+        url: /docs/exheredation.html

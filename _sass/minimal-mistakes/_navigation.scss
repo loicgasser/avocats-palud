@@ -323,6 +323,16 @@
      Navigation list
      ========================================================================== */
 
+.sidebar {
+  .nav__list {
+    .nav__items {
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
 .nav__list {
   margin-bottom: 1.5em;
 
