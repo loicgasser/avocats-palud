@@ -1,6 +1,6 @@
 language: ruby
 cache: bundler
-gemfile: Gemfile.lock
+gemfile: Gemfile
 script:
   - bundle exec jekyll build
 branches:
