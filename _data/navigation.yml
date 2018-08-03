@@ -2,7 +2,9 @@ main:
   - title: Les avocats
     url: /
   - title: Questions juridiques
-    url: /docs/permis-de-contruire.html
+    url: /docs/
+  - title: Nouvelles
+    url: /archives/
   - title: FAQ
     url: /faq.html
   - title: Liens
@@ -14,7 +16,7 @@ docs:
   - title: Questions Juridiques
     children:
       - title: "Délai pour permis de construire"
-        url: /docs/permis-de-contruire.html
+        url: /docs/
       - title: "L’hypothèque légale des artisans et entrepreneurs"
         url: /docs/hypotheque.html
       - title: "Situation fiscale après divorce"
