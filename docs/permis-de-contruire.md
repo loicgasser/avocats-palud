@@ -1,6 +1,7 @@
 ---
 layout: single
 classes: wide
+permalink: /docs/
 excerpt: "Un service professionel à l'écoute de vos besoins"
 header:
   overlay_color: "#be272d"

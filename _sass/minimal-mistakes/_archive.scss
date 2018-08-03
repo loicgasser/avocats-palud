@@ -4,6 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
+  font-size: $type-size-3;
 
   @include breakpoint($large) {
     float: right;
