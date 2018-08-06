@@ -21,7 +21,7 @@ Voici comment on peut faire une liste:
 
 Pour faire des listes avec numéros
 1. Ma première entrée
-2. Ma deusième entrée
+2. Ma deuxième entrée
 3. Ma troisième entrée
 
 Et si j'ai envie de mettre en mot en **gras**?
