@@ -13,9 +13,9 @@ deploy:
  provider: s3
  access_key_id: $AWS_ACCESS_KEY_ID
  secret_access_key: $AWS_SECRET_ACCESS_KEY
- bucket: "S3 Bucket"
+ bucket: $AWS_BUCKET_NAME
  skip_cleanup: true
- region: "Bucket region"
+ region: $AWS_REGION
  local_dir: _site
  on:
   branch: master
