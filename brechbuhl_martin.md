@@ -25,7 +25,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * Droit administratif
 * Droit pénal et défense des victimes
 * Droit de l’insolvabilité
-* Doit du sourire
 
 ### Formation et expérience professionelles
 
