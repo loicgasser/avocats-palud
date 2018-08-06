@@ -1,3 +1,9 @@
+---
+excerpt: "Un service professionel à l'écoute de vos besoins"
+header:
+  overlay_color: "#be272d"
+---
+
 Commencez par créer le nom du fichier
 
 YYYY-MM-DD-Titre.md
